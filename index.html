@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Моя страница</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<button type="button" onclick="horse(1)">
+		<img src="img/horse.jpg" alt="">
+	</button>
+	<button type="button" onclick="chicken(2)">
+		<img src="img/chicken.jpg" alt="">
+	</button>
+	<button type="button" onclick="cock(3)">
+		<img src="img/cock.jpg" alt="">
+	</button>
+	<button type="button" onclick="dog(4)">
+		<img src="img/dog.jpg" alt="">
+	</button>
+	<button type="button" onclick="cat(5)">
+		<img src="img/cat.jpeg" alt="">
+	</button>
+	<button type="button" onclick="cow(6)">
+		<img src="img/cow.jpg" alt="">
+	</button>
+	<button type="button" onclick="tiger(7)">
+		<img src="img/tiger.jpg" alt="">
+	</button>
+	<button type="button" onclick="lion(8)">
+		<img src="img/lion.jpg" alt="">
+	</button>
+	<button type="button" onclick="sheep(9)">
+		<img src="img/sheep.jpg" alt="">
+	</button>
+	<button type="button" onclick="pig(10)">
+		<img src="img/pig.jpg" alt="">
+	</button>
+	<button type="button" onclick="bird(11)">
+		<img src="img/bird.jpg" alt="">
+	</button>
+	<button type="button" onclick="lionAndTurtle(12)">
+		<img src="img/lionAndTurtle.jpg" alt="">
+	</button>
+	
+	<div>
+		Здесь я подскажу, кого ты выбрала...
+	</div>
+	
+	<script>
+		var horse1 = new Audio ();
+		var chicken1 = new Audio ();
+		var cock1 = new Audio ();
+		var dog1 = new Audio ();
+		var cat1 = new Audio ();
+		var cow1 = new Audio ();
+		var tiger1 = new Audio ();
+		var lion1 = new Audio ();
+		var sheep1 = new Audio ();
+		var pig1 = new Audio ();
+		var bird1 = new Audio ();
+		var lionAndTurtle1 = new Audio ();
+		
+		horse1.src = "horse.mp3";
+		chicken1.src = "chicken.mp3";
+		cock1.src = "cock.mp3";
+		dog1.src = "dog.mp3";
+		cat1.src = "cat.mp3";
+		cow1.src = "cow.mp3";
+		tiger1.src = "tiger.mp3";
+		lion1.src = "lion.mp3";
+		sheep1.src = "sheep.mp3";
+		pig1.src = "pig.mp3";
+		bird1.src = "bird.mp3";
+		lionAndTurtle1.src = "lionAndTurtle.mp3";
+		
+		function horse(num) {
+			horse1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Играет кнопка " + num;
+		}
+		
+		function chicken(num) {
+			chicken1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function cock(num) {
+			cock1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function dog(num) {
+			dog1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function cat(num) {
+			cat1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function cow(num) {
+			cow1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function tiger(num) {
+			tiger1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function lion(num) {
+			lion1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function sheep(num) {
+			sheep1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function pig(num) {
+			pig1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function bird(num) {
+			bird1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+		function lionAndTurtle(num) {
+			lionAndTurtle1.play();
+			var div1 = document.querySelector("div");
+			div1.innerHTML = "Нажата кнопка " + num;
+		}
+		
+	</script>
+
+	
+	<!--	<script src="js/script.js"></script>	-->
+</body>
+</html>
