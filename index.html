@@ -7,7 +7,7 @@
 </head>
 <body>
 
-	<button type="button" onclick="horse(1)">
+	<button class="horse" type="button" onclick="horse(1)">
 		<img src="img/horse.jpg" alt="">
 	</button>
 	<button type="button" onclick="chicken(2)">
@@ -45,7 +45,7 @@
 	</button>
 	
 	<div>
-		Здесь я подскажу, кого ты выбрала...
+		Здесь я подскажу, выбранную карточку...
 	</div>
 	
 	<script>
@@ -62,90 +62,90 @@
 		var bird1 = new Audio ();
 		var lionAndTurtle1 = new Audio ();
 		
-		horse1.src = "horse.mp3";
-		chicken1.src = "chicken.mp3";
-		cock1.src = "cock.mp3";
-		dog1.src = "dog.mp3";
-		cat1.src = "cat.mp3";
-		cow1.src = "cow.mp3";
-		tiger1.src = "tiger.mp3";
-		lion1.src = "lion.mp3";
-		sheep1.src = "sheep.mp3";
-		pig1.src = "pig.mp3";
-		bird1.src = "bird.mp3";
-		lionAndTurtle1.src = "lionAndTurtle.mp3";
+		horse1.src = "sounds/horse.mp3";
+		chicken1.src = "sounds/chicken.mp3";
+		cock1.src = "sounds/cock.mp3";
+		dog1.src = "sounds/dog.mp3";
+		cat1.src = "sounds/cat.mp3";
+		cow1.src = "sounds/cow.mp3";
+		tiger1.src = "sounds/tiger.mp3";
+		lion1.src = "sounds/lion.mp3";
+		sheep1.src = "sounds/sheep.mp3";
+		pig1.src = "sounds/pig.mp3";
+		bird1.src = "sounds/bird.mp3";
+		lionAndTurtle1.src = "sounds/lionAndTurtle.mp3";
 		
-		function horse(num) {
+        function horse(num) {
 			horse1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Играет кнопка " + num;
-		}
-		
+		};
+
 		function chicken(num) {
 			chicken1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function cock(num) {
 			cock1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function dog(num) {
 			dog1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function cat(num) {
 			cat1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function cow(num) {
 			cow1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function tiger(num) {
 			tiger1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function lion(num) {
 			lion1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function sheep(num) {
 			sheep1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function pig(num) {
 			pig1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function bird(num) {
 			bird1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 		function lionAndTurtle(num) {
 			lionAndTurtle1.play();
 			var div1 = document.querySelector("div");
 			div1.innerHTML = "Нажата кнопка " + num;
-		}
+		};
 		
 	</script>
 
